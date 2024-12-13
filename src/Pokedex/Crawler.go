@@ -7,6 +7,7 @@ import (
 	"strings"
 	"sync"
 	"time"
+
 	"github.com/playwright-community/playwright-go"
 )
 
