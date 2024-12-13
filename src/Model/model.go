@@ -46,6 +46,8 @@ type Pokemon struct {
 	Profile            Profile              `json:"Profile"`
 	DamageWhenAttacked []DamageWhenAttacked `json:"DamegeWhenAttacked"`
 	EvolutionLevel     int                  `json:"EvolutionLevel"`
+	EvolutionCondition string               `json:"EvolutionCondition"`
 	NextEvolution      string               `json:"NextEvolution"`
-	Moves              []Moves              `json:"Moves"`
+	// Moves              []Moves              `json:"Moves"`
+
 }

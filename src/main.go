@@ -9,5 +9,4 @@ func main() {
 	var wg sync.WaitGroup
 	Pokedex.CrawlDriver()
 	wg.Wait()
-
 }
