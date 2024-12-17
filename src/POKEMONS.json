@@ -1,0 +1,678 @@
+[
+    {
+        "Name": "Bulbasaur",
+        "Elements": [
+            "grass",
+            "poison"
+        ],
+        "EV": 0,
+        "Stats": {
+            "HP": 45,
+            "Attack": 49,
+            "Defense": 49,
+            "Speed": 45,
+            "Sp_Attack": 65,
+            "Sp_Defense": 65
+        },
+        "Profile": {
+            "Height": 0.7,
+            "Weight": 6.9,
+            "CatchRate": 0,
+            "GenderRatio": {
+                "MaleRatio": 87.5,
+                "FemaleRatio": 12.5
+            },
+            "EggGroup": "Monster, Grass",
+            "HatchSteps": 5100,
+            "Abilities": "Chlorophyll, Overgrow"
+        },
+        "DamegeWhenAttacked": [
+            {
+                "Element": "ground",
+                "Coefficient": 2
+            },
+            {
+                "Element": "fighting",
+                "Coefficient": 0.5
+            },
+            {
+                "Element": "psychic",
+                "Coefficient": 2
+            },
+            {
+                "Element": "fairy",
+                "Coefficient": 0.5
+            },
+            {
+                "Element": "flying",
+                "Coefficient": 2
+            },
+            {
+                "Element": "water",
+                "Coefficient": 0.5
+            },
+            {
+                "Element": "fire",
+                "Coefficient": 2
+            },
+            {
+                "Element": "electric",
+                "Coefficient": 0.5
+            },
+            {
+                "Element": "ice",
+                "Coefficient": 2
+            },
+            {
+                "Element": "grass",
+                "Coefficient": 0.25
+            }
+        ],
+        "EvolutionLevel": 16,
+        "EvolutionCondition": "N/A",
+        "NextEvolution": ""
+    },
+    {
+        "Name": "Ivysaur",
+        "Elements": [
+            "grass",
+            "poison"
+        ],
+        "EV": 0,
+        "Stats": {
+            "HP": 60,
+            "Attack": 62,
+            "Defense": 63,
+            "Speed": 60,
+            "Sp_Attack": 80,
+            "Sp_Defense": 80
+        },
+        "Profile": {
+            "Height": 1,
+            "Weight": 13,
+            "CatchRate": 0,
+            "GenderRatio": {
+                "MaleRatio": 87.5,
+                "FemaleRatio": 12.5
+            },
+            "EggGroup": "Monster, Grass",
+            "HatchSteps": 5100,
+            "Abilities": "Chlorophyll, Overgrow"
+        },
+        "DamegeWhenAttacked": [
+            {
+                "Element": "ground",
+                "Coefficient": 2
+            },
+            {
+                "Element": "fighting",
+                "Coefficient": 0.5
+            },
+            {
+                "Element": "psychic",
+                "Coefficient": 2
+            },
+            {
+                "Element": "fairy",
+                "Coefficient": 0.5
+            },
+            {
+                "Element": "flying",
+                "Coefficient": 2
+            },
+            {
+                "Element": "water",
+                "Coefficient": 0.5
+            },
+            {
+                "Element": "fire",
+                "Coefficient": 2
+            },
+            {
+                "Element": "electric",
+                "Coefficient": 0.5
+            },
+            {
+                "Element": "ice",
+                "Coefficient": 2
+            },
+            {
+                "Element": "grass",
+                "Coefficient": 0.25
+            }
+        ],
+        "EvolutionLevel": 32,
+        "EvolutionCondition": "N/A",
+        "NextEvolution": ""
+    },
+    {
+        "Name": "Venusaur",
+        "Elements": [
+            "grass",
+            "poison"
+        ],
+        "EV": 0,
+        "Stats": {
+            "HP": 80,
+            "Attack": 82,
+            "Defense": 83,
+            "Speed": 80,
+            "Sp_Attack": 100,
+            "Sp_Defense": 100
+        },
+        "Profile": {
+            "Height": 2,
+            "Weight": 100,
+            "CatchRate": 0,
+            "GenderRatio": {
+                "MaleRatio": 87.5,
+                "FemaleRatio": 12.5
+            },
+            "EggGroup": "Monster, Grass",
+            "HatchSteps": 5100,
+            "Abilities": "Chlorophyll, Overgrow"
+        },
+        "DamegeWhenAttacked": [
+            {
+                "Element": "ground",
+                "Coefficient": 2
+            },
+            {
+                "Element": "fighting",
+                "Coefficient": 0.5
+            },
+            {
+                "Element": "psychic",
+                "Coefficient": 2
+            },
+            {
+                "Element": "fairy",
+                "Coefficient": 0.5
+            },
+            {
+                "Element": "flying",
+                "Coefficient": 2
+            },
+            {
+                "Element": "water",
+                "Coefficient": 0.5
+            },
+            {
+                "Element": "fire",
+                "Coefficient": 2
+            },
+            {
+                "Element": "electric",
+                "Coefficient": 0.5
+            },
+            {
+                "Element": "ice",
+                "Coefficient": 2
+            },
+            {
+                "Element": "grass",
+                "Coefficient": 0.25
+            }
+        ],
+        "EvolutionLevel": 0,
+        "EvolutionCondition": "N/A",
+        "NextEvolution": ""
+    },
+    {
+        "Name": "Charmander",
+        "Elements": [
+            "fire"
+        ],
+        "EV": 0,
+        "Stats": {
+            "HP": 39,
+            "Attack": 52,
+            "Defense": 43,
+            "Speed": 65,
+            "Sp_Attack": 60,
+            "Sp_Defense": 50
+        },
+        "Profile": {
+            "Height": 0.6,
+            "Weight": 8.5,
+            "CatchRate": 0,
+            "GenderRatio": {
+                "MaleRatio": 87.5,
+                "FemaleRatio": 12.5
+            },
+            "EggGroup": "Monster, Dragon",
+            "HatchSteps": 5100,
+            "Abilities": "Blaze, Solar-power"
+        },
+        "DamegeWhenAttacked": [
+            {
+                "Element": "ground",
+                "Coefficient": 2
+            },
+            {
+                "Element": "steel",
+                "Coefficient": 0.5
+            },
+            {
+                "Element": "rock",
+                "Coefficient": 2
+            },
+            {
+                "Element": "fire",
+                "Coefficient": 0.5
+            },
+            {
+                "Element": "water",
+                "Coefficient": 2
+            },
+            {
+                "Element": "ice",
+                "Coefficient": 0.5
+            },
+            {
+                "Element": "",
+                "Coefficient": 0
+            },
+            {
+                "Element": "fairy",
+                "Coefficient": 0.5
+            }
+        ],
+        "EvolutionLevel": 16,
+        "EvolutionCondition": "N/A",
+        "NextEvolution": ""
+    },
+    {
+        "Name": "Charmeleon",
+        "Elements": [
+            "fire"
+        ],
+        "EV": 0,
+        "Stats": {
+            "HP": 58,
+            "Attack": 64,
+            "Defense": 58,
+            "Speed": 80,
+            "Sp_Attack": 80,
+            "Sp_Defense": 65
+        },
+        "Profile": {
+            "Height": 1.1,
+            "Weight": 19,
+            "CatchRate": 0,
+            "GenderRatio": {
+                "MaleRatio": 87.5,
+                "FemaleRatio": 12.5
+            },
+            "EggGroup": "Monster, Dragon",
+            "HatchSteps": 5100,
+            "Abilities": "Blaze, Solar-power"
+        },
+        "DamegeWhenAttacked": [
+            {
+                "Element": "ground",
+                "Coefficient": 2
+            },
+            {
+                "Element": "steel",
+                "Coefficient": 0.5
+            },
+            {
+                "Element": "rock",
+                "Coefficient": 2
+            },
+            {
+                "Element": "fire",
+                "Coefficient": 0.5
+            },
+            {
+                "Element": "water",
+                "Coefficient": 2
+            },
+            {
+                "Element": "ice",
+                "Coefficient": 0.5
+            },
+            {
+                "Element": "",
+                "Coefficient": 0
+            },
+            {
+                "Element": "fairy",
+                "Coefficient": 0.5
+            }
+        ],
+        "EvolutionLevel": 36,
+        "EvolutionCondition": "N/A",
+        "NextEvolution": ""
+    },
+    {
+        "Name": "Charizard",
+        "Elements": [
+            "fire",
+            "flying"
+        ],
+        "EV": 0,
+        "Stats": {
+            "HP": 78,
+            "Attack": 84,
+            "Defense": 78,
+            "Speed": 100,
+            "Sp_Attack": 109,
+            "Sp_Defense": 85
+        },
+        "Profile": {
+            "Height": 1.7,
+            "Weight": 90.5,
+            "CatchRate": 0,
+            "GenderRatio": {
+                "MaleRatio": 87.5,
+                "FemaleRatio": 12.5
+            },
+            "EggGroup": "Monster, Dragon",
+            "HatchSteps": 5100,
+            "Abilities": "Blaze, Solar-power"
+        },
+        "DamegeWhenAttacked": [
+            {
+                "Element": "rock",
+                "Coefficient": 4
+            },
+            {
+                "Element": "fighting",
+                "Coefficient": 0.5
+            },
+            {
+                "Element": "ground",
+                "Coefficient": 2
+            },
+            {
+                "Element": "bug",
+                "Coefficient": 0.5
+            },
+            {
+                "Element": "electric",
+                "Coefficient": 2
+            },
+            {
+                "Element": "grass",
+                "Coefficient": 0.5
+            },
+            {
+                "Element": "water",
+                "Coefficient": 2
+            },
+            {
+                "Element": "steel",
+                "Coefficient": 0.5
+            },
+            {
+                "Element": "",
+                "Coefficient": 0
+            },
+            {
+                "Element": "fire",
+                "Coefficient": 0.5
+            },
+            {
+                "Element": "",
+                "Coefficient": 0
+            },
+            {
+                "Element": "fairy",
+                "Coefficient": 0.5
+            }
+        ],
+        "EvolutionLevel": 0,
+        "EvolutionCondition": "N/A",
+        "NextEvolution": ""
+    },
+    {
+        "Name": "Squirtle",
+        "Elements": [
+            "water"
+        ],
+        "EV": 0,
+        "Stats": {
+            "HP": 44,
+            "Attack": 48,
+            "Defense": 65,
+            "Speed": 43,
+            "Sp_Attack": 50,
+            "Sp_Defense": 64
+        },
+        "Profile": {
+            "Height": 0.5,
+            "Weight": 9,
+            "CatchRate": 0,
+            "GenderRatio": {
+                "MaleRatio": 87.5,
+                "FemaleRatio": 12.5
+            },
+            "EggGroup": "Monster, Water 1",
+            "HatchSteps": 5100,
+            "Abilities": "Rain-dish, Torrent"
+        },
+        "DamegeWhenAttacked": [
+            {
+                "Element": "grass",
+                "Coefficient": 2
+            },
+            {
+                "Element": "steel",
+                "Coefficient": 0.5
+            },
+            {
+                "Element": "electric",
+                "Coefficient": 2
+            },
+            {
+                "Element": "fire",
+                "Coefficient": 0.5
+            },
+            {
+                "Element": "",
+                "Coefficient": 0
+            },
+            {
+                "Element": "water",
+                "Coefficient": 0.5
+            },
+            {
+                "Element": "",
+                "Coefficient": 0
+            },
+            {
+                "Element": "ice",
+                "Coefficient": 0.5
+            }
+        ],
+        "EvolutionLevel": 16,
+        "EvolutionCondition": "N/A",
+        "NextEvolution": ""
+    },
+    {
+        "Name": "Wartortle",
+        "Elements": [
+            "water"
+        ],
+        "EV": 0,
+        "Stats": {
+            "HP": 59,
+            "Attack": 63,
+            "Defense": 80,
+            "Speed": 58,
+            "Sp_Attack": 65,
+            "Sp_Defense": 80
+        },
+        "Profile": {
+            "Height": 1,
+            "Weight": 22.5,
+            "CatchRate": 0,
+            "GenderRatio": {
+                "MaleRatio": 87.5,
+                "FemaleRatio": 12.5
+            },
+            "EggGroup": "Monster, Water 1",
+            "HatchSteps": 5100,
+            "Abilities": "Rain-dish, Torrent"
+        },
+        "DamegeWhenAttacked": [
+            {
+                "Element": "grass",
+                "Coefficient": 2
+            },
+            {
+                "Element": "steel",
+                "Coefficient": 0.5
+            },
+            {
+                "Element": "electric",
+                "Coefficient": 2
+            },
+            {
+                "Element": "fire",
+                "Coefficient": 0.5
+            },
+            {
+                "Element": "",
+                "Coefficient": 0
+            },
+            {
+                "Element": "water",
+                "Coefficient": 0.5
+            },
+            {
+                "Element": "",
+                "Coefficient": 0
+            },
+            {
+                "Element": "ice",
+                "Coefficient": 0.5
+            }
+        ],
+        "EvolutionLevel": 36,
+        "EvolutionCondition": "N/A",
+        "NextEvolution": ""
+    },
+    {
+        "Name": "Blastoise",
+        "Elements": [
+            "water"
+        ],
+        "EV": 0,
+        "Stats": {
+            "HP": 79,
+            "Attack": 83,
+            "Defense": 100,
+            "Speed": 78,
+            "Sp_Attack": 85,
+            "Sp_Defense": 105
+        },
+        "Profile": {
+            "Height": 1.6,
+            "Weight": 85.5,
+            "CatchRate": 0,
+            "GenderRatio": {
+                "MaleRatio": 87.5,
+                "FemaleRatio": 12.5
+            },
+            "EggGroup": "Monster, Water 1",
+            "HatchSteps": 5100,
+            "Abilities": "Rain-dish, Torrent"
+        },
+        "DamegeWhenAttacked": [
+            {
+                "Element": "grass",
+                "Coefficient": 2
+            },
+            {
+                "Element": "steel",
+                "Coefficient": 0.5
+            },
+            {
+                "Element": "electric",
+                "Coefficient": 2
+            },
+            {
+                "Element": "fire",
+                "Coefficient": 0.5
+            },
+            {
+                "Element": "",
+                "Coefficient": 0
+            },
+            {
+                "Element": "water",
+                "Coefficient": 0.5
+            },
+            {
+                "Element": "",
+                "Coefficient": 0
+            },
+            {
+                "Element": "ice",
+                "Coefficient": 0.5
+            }
+        ],
+        "EvolutionLevel": 0,
+        "EvolutionCondition": "N/A",
+        "NextEvolution": ""
+    },
+    {
+        "Name": "Caterpie",
+        "Elements": [
+            "bug"
+        ],
+        "EV": 0,
+        "Stats": {
+            "HP": 45,
+            "Attack": 30,
+            "Defense": 35,
+            "Speed": 45,
+            "Sp_Attack": 20,
+            "Sp_Defense": 20
+        },
+        "Profile": {
+            "Height": 0.3,
+            "Weight": 2.9,
+            "CatchRate": 0,
+            "GenderRatio": {
+                "MaleRatio": 50,
+                "FemaleRatio": 50
+            },
+            "EggGroup": "Bug",
+            "HatchSteps": 3825,
+            "Abilities": "Shield-dust, Run-away"
+        },
+        "DamegeWhenAttacked": [
+            {
+                "Element": "flying",
+                "Coefficient": 2
+            },
+            {
+                "Element": "fighting",
+                "Coefficient": 0.5
+            },
+            {
+                "Element": "rock",
+                "Coefficient": 2
+            },
+            {
+                "Element": "ground",
+                "Coefficient": 0.5
+            },
+            {
+                "Element": "fire",
+                "Coefficient": 2
+            },
+            {
+                "Element": "grass",
+                "Coefficient": 0.5
+            }
+        ],
+        "EvolutionLevel": 7,
+        "EvolutionCondition": "N/A",
+        "NextEvolution": ""
+    }
+]

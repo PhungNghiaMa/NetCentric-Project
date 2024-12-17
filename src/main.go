@@ -2,11 +2,11 @@ package main
 
 import (
 	"main/Pokedex"
-	"sync"
 )
 
 func main() {
-	var wg sync.WaitGroup
 	Pokedex.CrawlDriver()
-	wg.Wait()
+
+	// Get boolean variable "done" from Pokedex
+	// If "done" variable is true in Pokedex then call PokeCat.Start()
 }

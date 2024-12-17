@@ -49,7 +49,8 @@ func CrawlDriver() {
 	fmt.Println("TOTAL POKEMON WILL BE EXTRACTED: ", totalPokemons)
 
 	// Call function to crawl all pokemon
-	for i := range totalPokemons {
+
+	for i := range 10 {
 		// simulate clicking the button to open the pokemon details
 		locator := fmt.Sprintf("button.sprite-%d", i+1)
 		fmt.Println("Attempting to click:", locator)
@@ -223,7 +224,7 @@ func ExtractPokemon(page playwright.Page) {
 
 	// EXTRACT EVOLUTION
 	fmt.Println("EXTRACT EVOLUTION")
-	entries, _ = page.Locator("div.evolutions > div.evolution-row").First().All()
+	entries, _ = page.Locator("div.evolutions > div.evolution-row").All()
 	for _, entry := range entries {
 		evolutionLabel, _ := entry.Locator("div.evolution-label > span").First().TextContent()
 		evolutionLabelSplit := strings.Split(evolutionLabel, " ")

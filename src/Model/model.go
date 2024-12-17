@@ -49,5 +49,4 @@ type Pokemon struct {
 	EvolutionCondition string               `json:"EvolutionCondition"`
 	NextEvolution      string               `json:"NextEvolution"`
 	// Moves              []Moves              `json:"Moves"`
-
 }
