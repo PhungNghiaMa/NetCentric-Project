@@ -50,3 +50,10 @@ type Pokemon struct {
 	NextEvolution      string               `json:"NextEvolution"`
 	// Moves              []Moves              `json:"Moves"`
 }
+
+type User struct {
+	Username   string    `json:"username"`
+	Password   string    `json:"password"`
+	OwnPokemon []Pokemon `json:"ownPokemon"`
+	Token      string    `json:"token"`
+}

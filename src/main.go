@@ -1,12 +1,10 @@
 package main
 
-import (
-	"main/Pokedex"
-)
+import Pokecat "main/PokeCat"
 
 func main() {
-	Pokedex.CrawlDriver()
-
+	// Pokedex.CrawlDriver()
+	Pokecat.StartGame()
 	// Get boolean variable "done" from Pokedex
 	// If "done" variable is true in Pokedex then call PokeCat.Start()
 }
