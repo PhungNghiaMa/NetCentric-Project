@@ -1,4 +1,4 @@
-package Pokecat
+package CatTest
 
 import (
 	"bufio"
