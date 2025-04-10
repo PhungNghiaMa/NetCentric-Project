@@ -109,8 +109,8 @@ func CapturePokemon(newworld *World, player *Player) {
 	key := fmt.Sprintf("%d,%d", player.PlayerPos.X, player.PlayerPos.Y)
 	spawnMutex.Lock()
 	defer spawnMutex.Unlock()
-	world.Mutex.Lock()
-	defer world.Mutex.Unlock()
+	newworld.Mutex.Lock()
+	defer newworld.Mutex.Unlock()
 
 	if pokemon, exists := newworld.Cells[key]; exists {
 		delete(newworld.Cells, key)
